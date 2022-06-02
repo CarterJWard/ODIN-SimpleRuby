@@ -1,5 +1,5 @@
 #This functions takes a word and an array of substrings
-#retuns a hash words with
+#retuns a hash of words that are substrings of the word and the count of occurences
 def substrings(word, subs)
     puts subs.select{|entry| word.include?(entry)}.tally
 end
